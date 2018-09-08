@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Emirhan Pervanlar">
+    <title>Jquery Hedef Dışı Tıklama | Emirhan Pervanlar</title>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("*").click(function(event){
+                if(!$(event.target).is("#pencere")){
+                    alert("pencere dışı ");
+                }
+            })
+        })
+
+    </script>
+    <style>
+        #pencere{float:left;width:100%;height:200px;background:red;margin-top:200px;margin-bottom: 250px;}
+    </style>
+</head>
+<body>
+<div id="pencere">
+    <a href="http://emirhanpervanlar.com/yazilim/javascript/jquery-kullanarak-hedef-disi-tiklamayi-yakalama">Jquery Hedef Dışı Tıklama Detaylı Anlatımı  | Emirhan Pervanlar</a>
+</div>
+</body>
+</html>
