@@ -1,0 +1,1 @@
+Jquery kullanarak hedef dışı tıklamaları nasıl yakalayacağımızı bu kodları kullanarak anlayabilirsiniz. Gerekli anlatımı http://emirhanpervanlar.com/yazilim/javascript/jquery-kullanarak-hedef-disi-tiklamayi-yakalama bulabilirsiniz.
